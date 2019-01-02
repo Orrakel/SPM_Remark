@@ -7,12 +7,35 @@
   </head>
   <body>
      <textarea id="source">
-      <!-- Slideshow Markdown -->
+      # Wie ein Projekt geleitet wird
+       
+       - Yannic Döll
+       - Sebastian Peltner
+       - Alexander Nolting
+       - Karl Neitmann
+       - Waldemar Reger
+       - Jonas Vom Braucke
+       - Nick Kötter
+       
+       ---
+       
+       # Agenda
+       
+       * Marketing
+       * Qualität
+       * Prä-Planung
+       * Planung aktuell zum Projekt
+       * Information
+       * Metaprojekt
+       * Fazit
+       
     </textarea>
-     <script src="remark.js">
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
     </script>
     <script>
-       var slideshow = remark.create();
+       var slideshow = remark.create({
+          sourceUrl: 'markdown.md'
+        });
     </script>
   </body>
 </html>
